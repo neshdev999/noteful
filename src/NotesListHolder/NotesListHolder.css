@@ -1,0 +1,21 @@
+.notesListHolderContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.notesListHolderItem {
+    flex: 1;
+    margin: 5px;
+    padding: 1px;
+}
+
+
+/* Desktop Screen */
+
+@media screen and (min-width: 992px) {
+    .notesListHolderItem {
+        margin: 10px;
+        padding: 10px;
+    }
+}

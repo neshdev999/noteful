@@ -1,0 +1,11 @@
+.downNoteItemContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.downNoteItem {
+    flex: 1;
+    margin: 10px;
+}

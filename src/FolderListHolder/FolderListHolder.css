@@ -1,0 +1,23 @@
+.folderListContainer {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.folderListContainerItem {
+    flex: 1;
+    margin: 5px;
+}
+
+
+/* Desktop Screen */
+
+@media screen and (min-width: 992px) {
+    .folderListContainer {
+        flex-direction: column;
+    }
+    .folderListContainerItem {
+        margin: 10px;
+    }
+}
