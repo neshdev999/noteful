@@ -11,7 +11,7 @@ class MainPage extends Component{
         return(
             <div className="mainPageContainer">
                 <div className="mainPageContentItem">
-                    <NoteSidebar currentFolder={this.props.currentFolder}/>
+                    <NoteSidebar currentFolder={this.props.currentFolder} OnGoBackClick={this.props.OnGoBackClick}/>
                 </div>
                 <div className="mainPageContentItem mainPageNoteItem">
                     <div>

@@ -5,7 +5,7 @@ class GoBackButton extends Component{
     render(){
         return(
             <div className="goBackButtonContainer">
-                <button>Go Back</button>
+                <button type="button" onClick={this.props.OnGoBackClick}>Go Back</button>
             </div>
         );
     }

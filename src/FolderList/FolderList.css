@@ -5,3 +5,45 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: 2px solid azure;
 }
+
+.currentSelectLinkElement {
+    text-decoration: none;
+}
+
+
+/* .singleFolder:focus {
+    background-color: bisque;
+} */
+
+.singleFolder:active {
+    background-color: rgba(255, 228, 196, 0.288);
+}
+
+.singleFolder:hover {
+    background-color: rgba(0, 0, 0, 0.178);
+    color: darkcyan;
+}
+
+.folderContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 200px;
+}
+
+.folderItem {
+    flex: 1;
+    margin: 5px;
+}
+
+
+/* Desktop Screen */
+
+@media screen and (min-width: 992px) {
+    .folderContainer {
+        width: 250px;
+    }
+    .folderItem {
+        margin: 10px;
+    }
+}

@@ -12,7 +12,7 @@ class Note extends Component{
         return(
             <div className="noteContainer">
                 <div>
-                    <NoteTitle noteTitleData={currentNoteContent.name}/>
+                    <NoteTitle noteData={currentNoteContent} noteTitleData={currentNoteContent.name}/>
                 </div>
                 <div className="downNoteItemContainer">
                     <div className="downNoteItem">

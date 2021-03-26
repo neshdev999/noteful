@@ -4,6 +4,10 @@
     padding: 20px;
 }
 
+.currentHeaderLink {
+    text-decoration: none;
+}
+
 .mainHeaderContent {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 38px;

@@ -8,7 +8,7 @@ class NoteSidebar extends Component{
         return(
             <div className="noteSidebarContainer">
                 <div>
-                    <GoBackButton />
+                    <GoBackButton OnGoBackClick={this.props.OnGoBackClick}/>
                 </div>
                 <div>
                     <FolderIndicator currentFolder={this.props.currentFolder}/>
