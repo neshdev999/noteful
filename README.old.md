@@ -1,2 +1,0 @@
-# noteful
-Note application
