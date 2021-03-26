@@ -6,7 +6,7 @@ class NotesList extends Component{
     render(){
         const currentData = this.props.noteData;
         return(
-            currentData.notes.map((note, index) =>
+            currentData.map((note, index) =>
             <div key={index} className="singleNote"><Note noteContent={note}/></div>
             )
         );
